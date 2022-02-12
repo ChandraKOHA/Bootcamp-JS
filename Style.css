@@ -1,0 +1,14 @@
+.container
+{
+    width: 1000px;
+    background-color: rgb(202, 197, 197);
+    padding-top: 3px;
+    margin: auto;
+}
+
+.header
+{
+    font-weight: bold;
+    text-align: right;
+    line-height: 100px;
+}

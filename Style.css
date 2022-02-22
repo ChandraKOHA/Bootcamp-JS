@@ -277,8 +277,79 @@ h2
 {
     width: 725px;
     margin: 50px 0px 10px 50px;
-    background-color: transparent;
+    background-color: yell;
     display: inline-block;
     border: 10px;
     text-align: justify;
+}
+
+h3
+{
+    margin: 30px 0px 0px -20px;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.konten
+{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    margin: 15px 0px 0px -20px;
+}
+
+.konten p
+{
+    margin-left: 20px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.sidebar-right .con-recprojects
+{
+    background-color: transparent;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.con-recprojects .recprojects
+{
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-right: 27px;
+    margin-top: 15px;
+    text-align: center;
+    gap: 25px;
+}
+
+.sidebar-right .recprojects label
+{
+    background-color: transparent;
+    text-align: center;
+}
+
+.footer
+{
+    background-color: #1c252e;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.footer-image, .footer-text
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
